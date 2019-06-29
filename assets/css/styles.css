@@ -1,0 +1,227 @@
+
+@font-face {
+    font-family: "ApercuFont";
+    src: url("./../images/Apercu-Light.otf");
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "ApercuFont" !important;
+  background-color: #f9fafc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.topheader{
+  padding-top: 30px;
+}
+
+.hdrcallus p{
+  color:#fff; 
+  font-size: 12px;
+  margin-top: 5px;
+}
+.hdrcallus .btn-primary{
+  background-color:#fff;
+  color:#000;
+  border:none;
+  border-radius:0px;
+  font-size: 12px;
+}
+
+.bgimg {
+  width:100%;
+  height:600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; 
+}
+
+.bgimgtext {
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+}
+.bgimgtext h1{
+ font-weight: bold !important;
+ font-size: 3em;
+ text-align: center;
+ text-transform: uppercase;
+}
+.bgimgtext p{
+  letter-spacing: 5px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ .graybg{
+   background-color: #262729;
+   padding: 25px;
+   color: #fff;
+   text-align: center;
+ }
+ 
+ .wework, .location, .membership, .amenity{
+   padding: 50px;
+ }
+.borderdiv{
+   border: 1px solid #dedede;
+   padding: 40px 40px 25px 50px;
+   margin-right: -100px;
+   margin-top: 25px;
+   background-color: #fcfcfa;
+ }
+ .headerstyle{
+   margin-bottom: 20px;
+ }
+ .headerstyle h4, h6{
+   font-weight: bold;
+   line-height: 25px;
+ }
+ .videodiv, .amenitydiv {
+   position: relative;
+   z-index: -1;
+ }
+
+ .graybg p{ 
+  margin-top: 5px;
+ }
+ .memberborder{
+  border: 1px solid #dedede;
+  background-color: #fcfdf8;
+ }
+ .membertext{
+   padding: 10px;
+ }
+ .membertext h5{
+  font-weight: bold;
+}
+.membertext h6{
+  font-size: 11px;
+  color: #989898;
+  line-height: 20px;
+}
+ .membertext p{
+   font-size: 13px;
+   margin-bottom: 40px;
+ }
+ .membercolordiv{
+   background-color: #f5f6f1; 
+ }
+ .membercolordiv ul{
+  margin-bottom: 0px;
+ }
+ .membercolordiv li{
+  font-size: 12px;
+  line-height: 20px;
+  color: #191818;
+ }
+ .membercolordiv h6{
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 15px;
+  color: #000;
+ }
+ .memberbtn{
+   padding: 10px;
+   text-align: center;
+ }
+ .memberbtn .btn-primary{
+  width: 100%;
+  font-size: 13px;
+ }
+ .amenityborderdiv{
+  border: 1px solid #dedede;
+  padding: 40px 40px 25px 50px;
+  margin-left: -100px;
+  margin-top: 25px;
+  background-color: #fcfcfa;
+ }
+ .amenitypara{
+   font-size: 13px !important;
+   color: #546E7A;
+ }
+ .amenitysec{
+   text-align: center;
+   font-size: 14px;
+ }
+ .booktour{
+  width:100%;
+  height:900px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/F+W_WeWork_Tysons_B_0413.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; 
+ }
+ .footer{
+   background-color: #262729;
+   padding: 20px;
+   padding-bottom: 0px !important;
+ }
+ .whitebg{
+   background-color: #fff;
+   padding: 50px;
+   margin-top: 150px;
+ }
+ .tourbtn .btn-primary{
+    width: 100%;
+    background-color: #ffcf72;
+    color: #000;
+    border: none;
+ }
+ .callus{
+  margin-top: 20px;
+ }
+ .callus a{
+    text-decoration: none;
+ }
+ .footer p, i{
+   color: #fff
+ }
+ .socialicons{
+   text-align: right
+ }
+.socialicons a{
+  padding: 20px 20px 20px 20px;
+  
+}
+
+ /* Media Queries */
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .topheader .btn-primary{
+    display: none;
+  }
+  .topheader p{
+    margin-top: -15px;
+  }
+  .address{
+    display: none;
+  }
+  .socialicons{
+    text-align: center !important;
+  }
+  .borderdiv{
+    border: none;
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: #fcfcfa;
+  }
+  .memberborder{
+    margin: 10px !important;
+  }
+  .amenityborderdiv{
+    border: none;
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: #fcfcfa;
+  }
+  
+}
+
